@@ -1,0 +1,127 @@
+/*----------   GLOBAL CSS   ----------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 4.8rem;
+}
+h3 {
+  font-size: 3rem;
+}
+
+h4,
+h5 {
+  font-size: 2.8rem;
+}
+
+li,
+button {
+  font-size: 2rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*----------  sign in  --------*/
+#sign-in {
+  background-color: rgb(218, 162, 170);
+  min-height: 100vh;
+  background: linear-gradient(rgb(0, 0, 0, 0.1), transparent),
+    url("back-neige.jpg");
+  background-size: cover;
+  background-position: bottom;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: CENTER;
+  align-items: center;
+  position: relative;
+}
+
+.carre {
+  height: 70%;
+  width: 40%;
+  margin: 5% auto;
+  margin-left: 15%;
+  background: rgb(255, 255, 255, 0.4);
+  text-align: center;
+  border-radius: 2rem;
+  box-shadow: 0 8px 8px black;
+}
+
+.carre h1 {
+  margin: 10px;
+  color: black;
+  margin-top: 25px;
+}
+
+.carre h5 {
+  font-size: 1.4rem;
+  color: black;
+  margin-left: 1%;
+  float: left;
+}
+.carre ul li {
+  list-style: none;
+}
+
+.carre ul li input:hover {
+  border-style: solid;
+  border-color: rgb(45, 171, 245);
+}
+.carre ul {
+  margin: 5% 0;
+}
+.carre ul li input {
+  margin: 17px;
+  width: 80%;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.checkbox {
+  margin-top: 0.3%;
+  margin-left: 13%;
+  float: left;
+}
+
+.carre button {
+  padding: 2rem 4rem;
+  margin: 2rem auto;
+  background: rgb(23, 79, 116);
+  color: #fff;
+  font-size: 1.8rem;
+  cursor: pointer;
+  border-radius: 1.5rem;
+}
+.carre button:hover {
+  transform: scale(1.1);
+}
+
+.check {
+  margin-top: -4rem;
+}
+.hr1 {
+  width: 100%;
+  color: black;
+}
+.hr2 {
+  width: 100%;
+  color: black;
+}
